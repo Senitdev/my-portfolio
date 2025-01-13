@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import About from './composant/Abouts';
 import Blog from './composant/Blog';
+import FormContact from './composant/Form';
 import Header from './composant/Header';
 import Layout from './composant/Layout';
 import PortFolio from './composant/PortFolio';
@@ -21,6 +22,10 @@ const router=createBrowserRouter([
   {
     path:"/portfolio",
     element:<PortFolio/>
+  },
+  {
+    path:"/contact",
+    element:<FormContact/>
   }
 ]}
 ]);

@@ -17,6 +17,11 @@ export default function Header(){
           libelle:"PortFolio",
           link:"/portfolio"
         },
+        {
+          id:4,
+          libelle:"Contact",
+          link:"/contact"
+        }
     ]
     return<>
    <div className="App">
