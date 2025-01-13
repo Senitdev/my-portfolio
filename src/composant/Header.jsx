@@ -24,7 +24,7 @@ export default function Header(){
     <ul style={{ display:"flex",flexDirection:"row",height:"30px",color:"black", justifyContent:"space-between", width:"25%"}}>
       {
   menu.map((elt)=>(
-    <li key={elt.id}><a href={elt.link}>{elt.libelle}</a></li>
+    <li key={elt.id} className='info_menu'><a href={elt.link}>{elt.libelle}</a></li>
   ))
       }
     </ul>

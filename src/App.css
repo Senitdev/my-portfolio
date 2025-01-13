@@ -56,3 +56,9 @@ font-size: large;
 font-family: 'Times New Roman', Times, serif;
 padding: 5px;
 }
+.info_menu{
+padding-top: 10px;
+}
+.info_menu:hover{
+  font-size: 20px;
+}
