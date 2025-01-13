@@ -19,6 +19,12 @@ function App() {
         </a>
         <p>Bonjour mes amies</p>
         <p>Je test le déploiement  par Vercel</p>
+        <p>Formulaire de saisie</p>
+        <label>Prenom</label>
+        <input type='text' placeholder='saisir ton prenom'></input>
+        <label>Nom</label>
+        <input type='text' placeholder='Saisir ton nom'></input>
+        <button>Envoyer</button>
       </header>
     </div>
   );
