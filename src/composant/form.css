@@ -1,0 +1,25 @@
+form{
+    width: 50%;
+    padding-left: 10px;
+}
+label{
+    width: 100%;
+}
+input{
+    width: 95%;
+    height: 25px;
+    margin: 5px;
+}
+textarea{
+    width:96%;
+    height: 50px;
+}
+.btn_envoyer{
+   margin-bottom: 10px;
+    height: 38px;
+    width: 97%;
+    border-radius: 5px;
+    background-color:rgb(79, 196, 79);
+    margin: 1px solid white;
+    cursor: pointer;
+}
